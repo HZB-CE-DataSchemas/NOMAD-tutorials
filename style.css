@@ -1,0 +1,129 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.HZB-logo {
+    height: 100px;  /* or any size you want */
+    width: auto;   /* keeps aspect ratio */
+  }
+
+.HZB-bar {
+    width: 150px; /* Adjust to the size of your bar image */
+  } 
+
+.oasis-logo{
+    width: 300px; /* Adjust to the size of your third image */
+    margin-left: auto;
+    margin-right: 0;
+    align-self: center;
+}
+
+
+
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex;         /* Make the list items appear in a horizontal row */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;  /* Add space between each menu item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove the underline from links */
+    color: #333;           /* Set text color */
+    font-size: 18px;       /* Set the font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Change text color when hovering */
+}
+
+
+
+
+.hero {
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #184e8b, #6cabe9);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.video-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 180px;
+}
+
+.video-card .info {
+  padding: 1rem;
+}
+
+.video-card .info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.video-card .info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #184e8b;
+  color: white;
+}
+
